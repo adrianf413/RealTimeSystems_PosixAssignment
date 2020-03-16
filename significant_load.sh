@@ -1,6 +1,7 @@
 #!/bin/bash
 
 RUNS=50
+mkdir csvout
 mkdir csvout/q2a
 mkdir csvout/q2a/${RUNS}runs
 for (( i = 1; i <= $RUNS; i++ ))
