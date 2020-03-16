@@ -8,6 +8,7 @@ int main(int argc, char** argv){
     struct timespec curr_time1,curr_time2, sleeptime;
     int i,delay,num_iter;
     double now1,now2,init;
+
     if (argc!=3) {
         fprintf(stderr, "Usage: %s <sleep time..msec><num_iterations>\n", argv[0]);
         exit(1);
@@ -40,8 +41,7 @@ int main(int argc, char** argv){
         clock_gettime(CLOCK_REALTIME, &curr_time2);
         now1=curr_time1.tv_sec + curr_time1.tv_nsec*0.000000001;
         now2=curr_time2.tv_sec + curr_time2.tv_nsec*0.000000001;
-        printf("Time is %ld : %ld..slept for %lf
-        nsec\n",curr_time2.tv_sec,curr_time2.tv_nsec,(now2-now1)*1000000000);
+        printf("Time is %ld : %ld..slept for %lfnsec\n",curr_time2.tv_sec,curr_time2.tv_nsec,(now2-now1)*1000000000);
     }
     printf("Total time taken : actual %lf msec theory(excl. runtime): %d msec\n",(now2-init)*1000,num_iter*atoi(argv[1]));
     return 0;
