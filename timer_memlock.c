@@ -49,7 +49,7 @@ int main(int argc, char** argv){
         }
         gettimeofday( &tv,&tz);
         stop=tv.tv_sec + tv.tv_usec*0.000001;
-        printf("Run time for pass %d is %lf ms\n",j+1, (stop-start)*1000);
+        printf("Run time for pass %d, %lf ms\n",j+1, (stop-start)*1000);
         // sleep for 10 sec
         sleep(10);
         // Run multiple versions so unlocked versions may be paged during
