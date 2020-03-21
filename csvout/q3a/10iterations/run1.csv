@@ -1,0 +1,13 @@
+Delay is 2 msec ..num_iter is 10
+Sleeptime struct is 0 sec: 2000000 nsec
+Time is 1584826986 : 411071853..slept for 5906820.297241nsec
+Time is 1584826986 : 413849656..slept for 2773046.493530nsec
+Time is 1584826986 : 415881142..slept for 2027511.596680nsec
+Time is 1584826986 : 417987351..slept for 2102613.449097nsec
+Time is 1584826986 : 420667104..slept for 2674102.783203nsec
+Time is 1584826986 : 426526437..slept for 5852699.279785nsec
+Time is 1584826986 : 429388804..slept for 2856492.996216nsec
+Time is 1584826986 : 432304417..slept for 2910614.013672nsec
+Time is 1584826986 : 435437990..slept for 3129005.432129nsec
+Time is 1584826986 : 437845654..slept for 2402782.440186nsec
+Total time taken : actual 32.681227 msec theory(excl. runtime): 20 msec
