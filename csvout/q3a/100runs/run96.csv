@@ -1,0 +1,12 @@
+Delay is 2..num_iter is 10
+Time is 1584824736 : 405356..slept for 17.211914 ms
+Time is 1584824736 : 408243..slept for 2.882957 ms
+Time is 1584824736 : 411171..slept for 2.924919 ms
+Time is 1584824736 : 414114..slept for 2.939939 ms
+Time is 1584824736 : 416399..slept for 2.280951 ms
+Time is 1584824736 : 424423..slept for 8.020878 ms
+Time is 1584824736 : 426512..slept for 2.084970 ms
+Time is 1584824736 : 428768..slept for 2.251863 ms
+Time is 1584824736 : 431776..slept for 2.998114 ms
+Time is 1584824736 : 435186..slept for 3.407001 ms
+Total time taken : actual 47.042847 theory(excl. runtime): 20, ms
