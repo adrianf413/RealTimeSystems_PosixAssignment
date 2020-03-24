@@ -1,0 +1,8 @@
+Delay is 250 msec ..num_iter is 5
+Sleeptime struct is 0 sec: 250000000 nsec
+Time is 1585009661 : 36804519..slept for 250228881.835938nsec
+Time is 1585009661 : 287262977..slept for 250416278.839111nsec
+Time is 1585009661 : 538060907..slept for 250785589.218140nsec
+Time is 1585009661 : 789144863..slept for 251061916.351318nsec
+Time is 1585009662 : 39707423..slept for 250540733.337402nsec
+Total time taken : actual 1253.132582 msec theory(excl. runtime): 1250 msec

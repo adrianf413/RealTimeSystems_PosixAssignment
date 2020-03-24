@@ -1,0 +1,7 @@
+Delay is 2500..num_iter is 5
+Time is 1585009663 : 299647..slept for 2500.380993 ms
+Time is 1585009665 : 799797..slept for 2500.131130 ms
+Time is 1585009668 : 299986..slept for 2500.167847 ms
+Time is 1585009670 : 800515..slept for 2500.519991 ms
+Time is 1585009673 : 300754..slept for 2500.205040 ms
+Total time taken : actual 12501.489162 theory(excl. runtime): 12500, ms
